@@ -1,0 +1,5 @@
+V 0.0.1
+-added server.js
+-added packages (express, mongoose, passport, logger, body-parser, cookie-parser, express-session)
+-added files (routes.js, user.js, database.js, passport.js)
+-added basic pug views (index, login, profile, signup)
