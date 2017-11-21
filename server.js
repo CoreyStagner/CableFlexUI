@@ -41,7 +41,7 @@ app.set('view engine', 'pug');
 
 // Set up Express Passport Auth
 app.use(session({
-    secret: 'thisisatest',
+    secret: 'SDFUwewfhsdvouH8w8QEQfHLLDVio9wlSAVOI',
     resave: true,
     saveUninitialized: true
 }));// end app.use(session())

@@ -6,7 +6,7 @@ console.log("\u26a0 == Find a way to display to user if email/username is alread
 // ========================================================
 
 var LocalStrategy = require("passport-local").Strategy;
-var User = require("../app/models/user");
+var User = require("../app/models/users");
 
 //=========================================================
 //=====   Create Passport Use Cases   =====================
