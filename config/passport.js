@@ -1,5 +1,4 @@
 console.log("||\u274c  Opened File [./config/passport.js]");
-console.log("\u26a0 == Find a way to display to user if email/username is already used, email is not found, and if password is wrong (npm flash?)")
 
 // ========================================================
 // =====   Dependencies   =================================
