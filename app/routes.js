@@ -1,5 +1,4 @@
 console.log("||\u274c  Opened File [./app/routes.js]");
-console.log("\u26a0 == Finish Converting templage from EJS to Pug and have extend a Main.pug to keep code DRY");
 
 //=========================================================
 //=====   Build All Route Paths   =========================

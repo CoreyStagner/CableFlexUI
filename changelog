@@ -1,5 +1,10 @@
-V 0.0.1
+v0.0.01
 -added server.js
 -added packages (express, mongoose, passport, logger, body-parser, cookie-parser, express-session)
 -added files (routes.js, user.js, database.js, passport.js)
 -added basic pug views (index, login, profile, signup)
+
+v0.0.02
+-added package fs
+-added readfile function
+-commented all code to only test the file read
