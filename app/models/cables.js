@@ -27,8 +27,7 @@ var cableSchema = mongoose.Schema({
     },
     waveSN: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     dateTime: {
         type: String,
@@ -54,4 +53,4 @@ var cableSchema = mongoose.Schema({
 //=====   Exports   =======================================
 //=========================================================
 
-module.exports = mongoose.model('cables', userSchema);
+module.exports = mongoose.model('cables', cableSchema);

@@ -1,6 +1,21 @@
 console.log("||\u274c  Opened File [./app/routes.js]");
 
 //=========================================================
+//=====   Dependencies   ==================================
+//=========================================================
+
+var mongoose = require('mongoose');
+var Cable = require('./models/cables.js');
+var User = require('./models/users.js');
+// var Cable = mongoose.model('Cable', CableModel);
+// var User = mongoose.model('UserModel');
+var databaseUrl = "cable_flex_ui";
+var collections = ["cables"];
+var mongojs = require("mongojs");
+var path = require("path");
+var db = mongoose.connection;
+
+//=========================================================
 //=====   Build All Route Paths   =========================
 //=========================================================
 
