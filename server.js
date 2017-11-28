@@ -227,9 +227,9 @@ function returnLines(input) {
             if (newCable != undefined) {
                 arr.push(newCable);
                 newCable.save(function (err) {
-                    if (err)
-                        throw err;
-                    return (null, newCable);
+                    // if (err)
+                        // throw err;
+                    // return (null, newCable);
                 });// end newCable.save()
             }// end if( newCable != undefined )
         } // end if()
